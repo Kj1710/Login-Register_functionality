@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from "react-native";
 const HomeScreen = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Hurray! Login Successful</Text>
+      <Text style={styles.text}>Hurray! Login Successful!!</Text>
     </View>
   );
 };
@@ -15,6 +15,7 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
     justifyContent: "center",
     alignItems: "center",
+    backgroundColor: "transparent",
   },
   text: {
     fontSize: 20,

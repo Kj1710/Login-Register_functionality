@@ -41,7 +41,7 @@ const Login = () => {
 
   return (
     <View
-      styles={{ backgroundColor: "White", padding: 10, alignItems: "center" }}
+      style={{ backgroundColor: "White", padding: 10, alignItems: "center" }}
     >
       <KeyboardAvoidingView>
         <View
